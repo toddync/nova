@@ -1,0 +1,12 @@
+{
+	"name": "nova",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "node . && qbe -o test.s test.ssa && cc -o test test.s"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

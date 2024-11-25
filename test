@@ -1,0 +1,10 @@
+const symbols = ['+', '=', '*', '^'];
+const escapedSymbols = symbols.map(s => `\\${s}`); // Escape special regex characters
+const regex = new RegExp(`[${escapedSymbols.join('')}]`, 'g'); // Create regex
+
+// Example usage
+const testString = "a+b=c*d^e";
+const matches = testString.match(regex);
+
+console.log(regex); // Output: /[+\=\*\^]/g
+console.log(matches); // Output: [ '+', '=', '*', '^' ]

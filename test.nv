@@ -1,0 +1,10 @@
+print "Hello, World!"
+
+name = "Nova"
+version = 1.0
+is_simple = true
+_1_plus_1 = 1+1
+complex = (1+2)*version
+nested = ((2+3)*4)+5
+
+if _1_plus_1 > 1 && version == 1
